@@ -1,5 +1,5 @@
 const themes = {
-    default: {
+    classic: {
         '--color-primary': '#8B5CF6',
         '--color-secondary': '#6366F1',
         '--color-accent': '#A855F7',
@@ -13,12 +13,19 @@ const themes = {
         '--color-background': '#18181B',
         particleColor: '#F97316'
     },
-    christmas: {
+    melon: {
         '--color-primary': '#EF4444',
         '--color-secondary': '#22C55E',
         '--color-accent': '#F59E0B',
         '--color-background': '#0F172A',
         particleColor: '#EF4444'
+    },
+    pinky: {
+        '--color-primary': '#EC7FA9',
+        '--color-secondary': '#FFB8E0',
+        '--color-accent': '#BE5985',
+        '--color-background': '#FFEDFA',
+        particleColor: '#FFE2E2'
     }
 };
 
@@ -41,9 +48,10 @@ function updateParticles(color) {
     }
 }
 
-document.getElementById('defaultTheme').addEventListener('click', () => setTheme('default'));
+document.getElementById('classicTheme').addEventListener('click', () => setTheme('classic'));
 document.getElementById('halloweenTheme').addEventListener('click', () => setTheme('halloween'));
-document.getElementById('christmasTheme').addEventListener('click', () => setTheme('christmas'));
+document.getElementById('melonTheme').addEventListener('click', () => setTheme('melon'));
+document.getElementById('pinkyTheme').addEventListener('click', () => setTheme('pinky'));
 
 // Initialize particles.js
 particlesJS('particles-js', {
