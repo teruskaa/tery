@@ -94,4 +94,4 @@ particlesJS('particles-js', {
 });
 
 // Set initial theme
-setTheme('default');
+setTheme('classic');
