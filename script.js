@@ -1,6 +1,6 @@
 const themes = {
     default: {
-        '--color-primary': '#AA60CS8',
+        '--color-primary': '#AA60C8',
         '--color-secondary': '#D69ADE',
         '--color-accent': '#EABDE6',
         '--color-background': '#1F2937',
