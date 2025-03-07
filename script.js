@@ -1,10 +1,10 @@
 const themes = {
     default: {
-        '--color-primary': '#8B5CF6',
-        '--color-secondary': '#6366F1',
-        '--color-accent': '#A855F7',
+        '--color-primary': '#AA60C8',
+        '--color-secondary': '#D69ADE',
+        '--color-accent': '#EABDE6',
         '--color-background': '#1F2937',
-        particleColor: '#8B5CF6'
+        particleColor: '#AA60C8'
     },
     halloween: {
         '--color-primary': '#F97316',
