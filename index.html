@@ -1,92 +1,866 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teruska</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: 'var(--color-primary)',
-                        secondary: 'var(--color-secondary)',
-                        accent: 'var(--color-accent)',
-                        background: 'var(--color-background)',
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
-</head>
-<body class="min-h-screen flex items-center justify-center p-4">
-    <div id="particles-js" class="fixed inset-0 z-0"></div>
-    <div class="fixed top-4 right-4 flex gap-2 z-10">
-        <button id="defaultTheme" class="px-4 py-2 rounded-full text-white bg-purple-600 hover:bg-purple-700 transition-colors">Default</button>
-        <button id="halloweenTheme" class="px-4 py-2 rounded-full text-white bg-orange-600 hover:bg-orange-700 transition-colors">Halloween</button>
-        <button id="christmasTheme" class="px-4 py-2 rounded-full text-white bg-red-600 hover:bg-green-700 transition-colors">Christmas</button>
-    </div>
-    <div class="relative z-10 w-full max-w-lg bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-xl p-8 border border-white border-opacity-20">
-        <div class="flex justify-center mb-6">
-            <div class="w-32 h-32 rounded-full p-1 bg-gradient-to-r from-primary to-secondary">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiPmsjpQzdSoz1iO0lCGwf0zcD2XbyYDrDaA&s" alt="Profile" class="w-full h-full rounded-full object-cover">
+<html>
+  <head>
+    <!-- Site made with Mobirise Website Builder v5.8.0, https://mobirise.com -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="generator" content="Mobirise v5.8.0, mobirise.com" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/images/cuziamnoah-pb-fd-3-128x128.png"
+      type="image/x-icon"
+    />
+
+    <meta name="description" content="Official website from Yourname." />
+    <meta description="Official website from Yourname. " />
+
+    <meta property="og:site_name" content="Yourname - Website" />
+    <meta property="og:title" content="Yourname | Official Website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://styycraft.net/uploads/cuziamnoaheuindex.png"
+    />
+    <meta property="og:image:width" content="876" />
+    <meta property="og:image:height" content="438" />
+    <meta property="og:description" content="Official website from Yourname." />
+
+    <meta name="twitter:domain" content="cuziamnoah.eu" />
+    <meta name="twitter:site" content="@cuziamnoah" />
+    <meta name="twitter:creator" content="@cuziamnoah" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CuziamNoah | Official Website" />
+    <meta
+      name="twitter:image"
+      content="https://styycraft.net/uploads/cuziamnoaheuindex.png"
+    />
+    <meta
+      name="twitter:description"
+      content="Official website from Yourname."
+    />
+
+    <title>Home | Yourname</title>
+    <link
+      rel="stylesheet"
+      href="assets/web/assets/mobirise-icons2/mobirise2.css"
+    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/bootstrap/css/bootstrap-reboot.min.css"
+    />
+    <link rel="stylesheet" href="assets/dropdown/css/style.css" />
+    <link rel="stylesheet" href="assets/socicon/css/styles.css" />
+    <link rel="stylesheet" href="assets/theme/css/style.css" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Finlandica:400,500,600,700,400i,500i,600i,700i&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Finlandica:400,500,600,700,400i,500i,600i,700i&display=swap"
+    /></noscript>
+    <link
+      rel="preload"
+      as="style"
+      href="assets/mobirise/css/mbr-additional.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/mobirise/css/mbr-additional.css"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <section
+      data-bs-version="5.1"
+      class="menu menu2 expertm5 cid-txMPzYIx5I"
+      once="menu"
+      id="amenu2-0"
+    >
+      <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="navbar-brand">
+            <span class="navbar-logo">
+              <a href="https://domein.com">
+                <img
+                  src="assets/images/cuziamnoah-pb-fd-3-128x128.png"
+                  alt="Mobirise Website Builder"
+                  style="height: 4rem"
+                />
+              </a>
+            </span>
+            <span class="navbar-caption-wrap"
+              ><a
+                class="navbar-caption text-white display-4"
+                href="https://domein.com"
+                >Yourname</a
+              ></span
+            >
+          </div>
+          <div class="offcanvas_box">
+            <button
+              class="btn_offcanvas"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+            >
+              <div class="hamburger-offcanvas">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasRight"
+              aria-labelledby="offcanvasRightLabel"
+            >
+              <div class="offcanvas-body">
+                <div class="offcanvas_head">
+                  <div class="offcanvas_head_container">
+                    <div class="navbar-brand">
+                      <span class="navbar-logo">
+                        <a href="https://domein.com">
+                          <img
+                            src="assets/images/cuziamnoah-pb-fd-3-140x140.png"
+                            alt="Mobirise Website Builder"
+                            style="height: 4rem"
+                          />
+                        </a>
+                      </span>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn-close text-reset"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    >
+                      <div class="hamburger-offcanvas">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </button>
+                  </div>
+                  <p class="mbr-text mbr-fonts-style mb-0 display-7">
+                    Yourname's official website.<br />
+                  </p>
+                </div>
+                <div class="offcanvas_link">
+                  <ul
+                    class="navbar-nav nav-dropdown"
+                    data-app-modern-menu="true"
+                  >
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="index.html#top"
+                        >HOME</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        >ALL MY LINKS</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        >PORTFOLIO</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        >FAQ</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        >STYYCRAFT</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="https://builtbybit.com/members/barry.360807/https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        >STYYSMP</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link link text-white text-primary display-7"
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        >SOLO.TO (AFFILIATE)</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="social-container">
+                  <p class="social-title mbr-fonts-style display-7">
+                    FIND WITH ME
+                  </p>
+                  <div class="social-list justify-content-start">
+                    <div class="soc-item">
+                      <a
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        ><span
+                          class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"
+                        ></span
+                      ></a>
+                    </div>
+                    <div class="soc-item">
+                      <a
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        ><span
+                          class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
+                        ></span
+                      ></a>
+                    </div>
+                    <div class="soc-item">
+                      <a
+                        href="https://builtbybit.com/members/barry.360807/"
+                        target="_blank"
+                        ><span
+                          class="mbr-iconfont mbr-iconfont-social socicon-discord socicon"
+                        ></span
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="offcanvas_btn">
+                  <div
+                    class="navbar-buttons mbr-section-btn custom-section-btn"
+                  >
+                    <a
+                      class="btn btn-black display-7"
+                      href="https://builtbybit.com/members/barry.360807/"
+                      target="_blank"
+                      >YOURNAME SERVICES</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <h1 class="text-center text-white text-2xl font-bold mb-4 flex items-center justify-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-            Tereza    
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-        </h1>
-        <div class="flex flex-wrap justify-center gap-2 mb-6">
-            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
-                💻 Web Developer
-            </span>
-            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
-                🎨 Graphic Designer
-            </span>
-            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
-                🤖 Discord Bot Developer
-            </span>
-            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-primary to-secondary text-white">
-                📜 Skript Developer
+      </nav>
+    </section>
+
+    <section
+      data-bs-version="5.1"
+      class="header8 expertm5 cid-txMPUVxy7D"
+      id="aheader8-2"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 col-lg-7 col-text">
+            <div class="text-wrapper">
+              <h1 class="mbr-section-subtitle mbr-fonts-style display-2">
+                <strong>Hi, I’m Yourname</strong><br /><strong
+                  >Lorem ipsum dolor sit amet.</strong
+                ><br />
+              </h1>
+              <p class="mbr-text mbr-fonts-style display-7">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                tempor neque nec.<br />
+              </p>
+
+              <div class="social-container">
+                <p class="social-title mbr-fonts-style display-7">
+                  FIND WITH ME
+                </p>
+                <div class="social-list justify-content-start">
+                  <div class="soc-item">
+                    <a
+                      href="https://builtbybit.com/members/barry.360807/"
+                      target="_blank"
+                      ><span
+                        class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"
+                      ></span
+                    ></a>
+                  </div>
+                  <div class="soc-item">
+                    <a
+                      href="https://builtbybit.com/members/barry.360807/"
+                      target="_blank"
+                      ><span
+                        class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"
+                      ></span
+                    ></a>
+                  </div>
+                  <div class="soc-item">
+                    <a
+                      href="https://builtbybit.com/members/barry.360807/"
+                      target="_blank"
+                      ><span
+                        class="mbr-iconfont mbr-iconfont-social socicon-discord socicon"
+                      ></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5 col-img">
+            <div class="img-wrapper">
+              <div class="img-box">
+                <img
+                  src="assets/images/cuziamnoah-pb-fd-7-960x960.png"
+                  alt="Mobirise Website Builder"
+                />
+              </div>
+            </div>
+          </div>
         </div>
-        <p class="text-center text-white text-opacity-80 mb-6">
-            SIGMA GURL
-        </p>
-        <div class="text-center mb-6">
-            <h2 class="text-accent font-semibold mb-2">Official Discord:</h2>
-            <p class="text-white text-opacity-80">! teruska. | 123456789</p>
+      </div>
+    </section>
+
+    <section
+      data-bs-version="5.1"
+      class="features4 expertm5 cid-tzKxdfEWNd"
+      id="afeatures4-5"
+    >
+      <div class="align-center container">
+        <div class="row">
+          <div class="col-12">
+            <div class="card-box">
+              <div class="label-container">
+                <p class="label-text mbr-fonts-style mb-0 display-7">
+                  Limited Time Offer
+                </p>
+              </div>
+              <p class="card-text mbr-fonts-style mb-0 display-7">
+                Get this portfolio with 10% OFF!
+              </p>
+              <p class="link-text mbr-fonts-style mb-0 display-7">
+                <a href="#" class="text-white"></a
+                ><a
+                  href="https://builtbybit.com/members/barry.360807/"
+                  class="text-primary"
+                  target="_blank"
+                >
+                  Purchase Now </a
+                ><span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span
+                ><a
+                  href="https://builtbybit.com/members/barry.360807/"
+                  class="text-primary"
+                  target="_blank"
+                >
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="flex justify-center gap-4">
-            <a href="#" class="text-accent hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
-                </svg>
-            </a>
-            <a href="#" class="text-accent hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-                </svg>
-            </a>
-            <a href="#" class="text-accent hover:text-white transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-                </svg>
-            </a>
+      </div>
+    </section>
+
+    <section
+      data-bs-version="5.1"
+      class="features16 expertm5 cid-tzKyhFeHPP"
+      id="afeatures17-7"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-start">
+          <div class="col-12 col-lg-5 col-text">
+            <div class="text-wrapper shadow-item">
+              <div class="icon-wrap">
+                <span class="mbr-iconfont mobi-mbri-user mobi-mbri"></span>
+              </div>
+              <h1 class="mbr-section-title mbr-fonts-style display-2">
+                Hi, I’m <strong>Yourname</strong><br />
+              </h1>
+              <h1 class="mbr-section-subtitle mbr-fonts-style display-7">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                id eros sit amet ante dignissim congue a quis augue. Nam eget
+                libero risus. Aenean pulvinar, lacus in vulputate laoreet, urna
+                ipsum hendrerit dolor, in sodales ex nibh at diam. Sed eget
+                metus laoreet urna pretium condimentum malesuada at dolor.
+                Quisque quis faucibus metus.<br /><br />
+              </h1>
+              <div class="list-container">
+                <div class="list-item">
+                  <div class="iconfont-wrapper">
+                    <span
+                      class="mbr-iconfont mobi-mbri-new-file mobi-mbri"
+                    ></span>
+                  </div>
+                  <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                    Web Designer
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="iconfont-wrapper">
+                    <span
+                      class="mbr-iconfont mobi-mbri-letter mobi-mbri"
+                    ></span>
+                  </div>
+                  <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                    <a href="mailto:cuziamnoah@outlook.de" class="text-primary"
+                      >youremail.domein.com</a
+                    >
+                  </p>
+                </div>
+                <div class="list-item">
+                  <div class="iconfont-wrapper">
+                    <span class="mbr-iconfont socicon-discord socicon"></span>
+                  </div>
+                  <p class="list-item-text mbr-fonts-style mb-0 display-7">
+                    hhvja_barry
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrap shadow-item">
+              <p class="mbr-text mbr-fonts-style display-7">
+                Popular projects, created by myself
+              </p>
+              <div class="mbr-section-btn custom-section-btn">
+                <a
+                  class="btn btn-black display-7"
+                  href="https://builtbybit.com/resources/bungee-setup-party-friends.26393/"
+                  >Free Bungee</a
+                >
+                <a
+                  class="btn btn-black display-7"
+                  href="https://builtbybit.com/resources/free-minecraft-website-template.25476/"
+                  >Free mc Template</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 col-img">
+            <div class="img-container">
+              <div class="image-wrapper shadow-item">
+                <div class="img-box">
+                  <img
+                    src="assets/images/styydevbg-1320x1320.png"
+                    alt="Mobirise Website Builder"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    <script src="script.js"></script>
-</body>
+      </div>
+    </section>
+
+    <section
+      data-bs-version="5.1"
+      class="slider1 expertm5 cid-tzKzTx02aZ"
+      id="aslider1-9"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="mbr-section-head">
+              <h3
+                class="mbr-section-title mbr-fonts-style align-center mb-0 display-7"
+              >
+                WHAT CLIENTS SAY
+              </h3>
+              <h5
+                class="mbr-section-subtitle mbr-fonts-style align-center mb-0 display-2"
+              >
+                <strong>Testimonial</strong>
+              </h5>
+            </div>
+            <div class="carousel-wrapper">
+              <div
+                class="carousel slide"
+                id="tzKKVv0Bya"
+                data-interval="5000"
+                data-bs-interval="5000"
+              >
+                <ol class="carousel-indicators">
+                  <li
+                    data-slide-to="0"
+                    data-bs-slide-to="0"
+                    class="active"
+                    data-target="#tzKKVv0Bya"
+                    data-bs-target="#tzKKVv0Bya"
+                  ></li>
+                  <li
+                    data-slide-to="1"
+                    data-bs-slide-to="1"
+                    data-target="#tzKKVv0Bya"
+                    data-bs-target="#tzKKVv0Bya"
+                  ></li>
+                  <li
+                    data-slide-to="2"
+                    data-bs-slide-to="2"
+                    data-target="#tzKKVv0Bya"
+                    data-bs-target="#tzKKVv0Bya"
+                  ></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item slider-image item active">
+                    <div class="item-wrapper">
+                      <div class="card-info">
+                        <div class="info-img-wrap">
+                          <img
+                            src="assets/images/mcpfp-craftingbenny-300x300.png"
+                            alt="Mobirise Website Builder"
+                          />
+                        </div>
+                        <div class="info-text-wrap">
+                          <h5
+                            class="info-card-title align-left mbr-fonts-style display-7"
+                          >
+                            Bungee Setup | Party & Friends
+                          </h5>
+                          <h5
+                            class="info-card-subtitle align-left mbr-fonts-style mb-0 display-4"
+                          >
+                            <strong>Barry</strong>
+                          </h5>
+                          <p
+                            class="info-card-text align-left mbr-fonts-style mb-0 display-7"
+                          >
+                            Review from BuiltByBit
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card-description">
+                        <div class="absolute-icon-wrapper">
+                          <span
+                            class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"
+                          ></span>
+                        </div>
+                        <div class="card-description-wrapper">
+                          <div class="card-description-container">
+                            <div class="card-description-text-wrap">
+                              <h5
+                                class="card-description-title align-left mbr-fonts-style display-5"
+                              >
+                                <strong>Bungee Setup</strong>
+                              </h5>
+                              <h6
+                                class="card-description-subtitle align-left mbr-fonts-style mb-0 display-7"
+                              >
+                                BuiltByBit buyer
+                              </h6>
+                            </div>
+                            <div class="card-description-label-wrap">
+                              <div class="score-container">
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <p
+                            class="card-description-text align-left mbr-fonts-style display-7"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer id eros sit amet ante dignissim congue
+                            a quis augue. Nam eget libero risus. Aenean
+                            pulvinar, lacus in vulputate laoreet, urna ipsum
+                            hendrerit dolor, in sodales ex nibh at diam. Sed
+                            eget metus laoreet urna pretium condimentum
+                            malesuada at dolor.<br />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                      <div class="card-info">
+                        <div class="info-img-wrap">
+                          <img
+                            src="assets/images/mcpfp-m-fynn-s03-300x300.png"
+                            alt="Mobirise Website Builder"
+                          />
+                        </div>
+                        <div class="info-text-wrap">
+                          <h5
+                            class="info-card-title align-left mbr-fonts-style display-7"
+                          >
+                            FREE | Minecraft Website Template
+                          </h5>
+                          <h5
+                            class="info-card-subtitle align-left mbr-fonts-style mb-0 display-4"
+                          >
+                            <strong>Barry</strong>
+                          </h5>
+                          <p
+                            class="info-card-text align-left mbr-fonts-style mb-0 display-7"
+                          >
+                            Review from BuiltByBit
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card-description">
+                        <div class="absolute-icon-wrapper">
+                          <span
+                            class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"
+                          ></span>
+                        </div>
+                        <div class="card-description-wrapper">
+                          <div class="card-description-container">
+                            <div class="card-description-text-wrap">
+                              <h5
+                                class="card-description-title align-left mbr-fonts-style display-5"
+                              >
+                                <strong> Minecraft Website Template</strong>
+                              </h5>
+                              <h6
+                                class="card-description-subtitle align-left mbr-fonts-style mb-0 display-7"
+                              >
+                                BuiltByBit buyer
+                              </h6>
+                            </div>
+                            <div class="card-description-label-wrap">
+                              <div class="score-container">
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <p
+                            class="card-description-text align-left mbr-fonts-style display-7"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer id eros sit amet ante dignissim congue
+                            a quis augue. Nam eget libero risus. Aenean
+                            pulvinar, lacus in vulputate laoreet, urna ipsum
+                            hendrerit dolor, in sodales ex nibh at diam. Sed
+                            eget metus laoreet urna pretium condimentum
+                            malesuada at dolor.<br /><br /><br />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item slider-image item">
+                    <div class="item-wrapper">
+                      <div class="card-info">
+                        <div class="info-img-wrap">
+                          <img
+                            src="assets/images/mcpfp-friendlymoritz-300x300.png"
+                            alt="Mobirise Website Builder"
+                          />
+                        </div>
+                        <div class="info-text-wrap">
+                          <h5
+                            class="info-card-title align-left mbr-fonts-style display-7"
+                          >
+                            FREE | Minecraft Website Template
+                          </h5>
+                          <h5
+                            class="info-card-subtitle align-left mbr-fonts-style mb-0 display-4"
+                          >
+                            <strong>Barry</strong>
+                          </h5>
+                          <p
+                            class="info-card-text align-left mbr-fonts-style mb-0 display-7"
+                          >
+                            Review from BuiltByBit
+                          </p>
+                        </div>
+                      </div>
+                      <div class="card-description">
+                        <div class="absolute-icon-wrapper">
+                          <span
+                            class="mbr-iconfont mobi-mbri-quote-right mobi-mbri"
+                          ></span>
+                        </div>
+                        <div class="card-description-wrapper">
+                          <div class="card-description-container">
+                            <div class="card-description-text-wrap">
+                              <h5
+                                class="card-description-title align-left mbr-fonts-style display-5"
+                              >
+                                <strong>Minecraft Website Template</strong>
+                              </h5>
+                              <h6
+                                class="card-description-subtitle align-left mbr-fonts-style mb-0 display-7"
+                              >
+                                BuiltByBit buyer
+                              </h6>
+                            </div>
+                            <div class="card-description-label-wrap">
+                              <div class="score-container">
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                                <div class="score-wrapper">
+                                  <span
+                                    class="mbr-iconfont mobi-mbri-star mobi-mbri"
+                                  ></span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <p
+                            class="card-description-text align-left mbr-fonts-style display-7"
+                          >
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer id eros sit amet ante dignissim congue
+                            a quis augue. Nam eget libero risus. Aenean
+                            pulvinar, lacus in vulputate laoreet, urna ipsum
+                            hendrerit dolor, in sodales ex nibh at diam. Sed
+                            eget metus laoreet urna pretium condimentum
+                            malesuada at dolor.<br /><br />
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control carousel-control-prev"
+                  role="button"
+                  data-slide="prev"
+                  data-bs-slide="prev"
+                  href="#tzKKVv0Bya"
+                >
+                  <span
+                    class="mobi-mbri mobi-mbri-arrow-prev"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only visually-hidden">Previous</span>
+                </a>
+                <a
+                  class="carousel-control carousel-control-next"
+                  role="button"
+                  data-slide="next"
+                  data-bs-slide="next"
+                  href="#tzKKVv0Bya"
+                >
+                  <span
+                    class="mobi-mbri mobi-mbri-arrow-next"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only visually-hidden">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      data-bs-version="5.1"
+      class="footer2 expertm5 cid-tzKzn6dKkk"
+      once="footers"
+      id="afooter2-8"
+    >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="border-item"></div>
+          </div>
+          <div class="col-12">
+            <div class="copyright-container w-100">
+              <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                © Copyright 2023 <strong>hhvja-barry&nbsp;</strong>- All Rights
+                Reserved<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/ytplayer/index.js"></script>
+    <script src="assets/dropdown/js/navbar-dropdown.js"></script>
+    <script src="assets/theme/js/script.js"></script>
+  </body>
 </html>
